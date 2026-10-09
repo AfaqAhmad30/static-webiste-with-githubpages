@@ -1,17 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DevOps Task 6 - Static Website</title>
-    <style>
-        body { font-family: Arial, sans-serif; text-align: center; margin-top: 50px; background-color: #f4f4f9; }
-        h1 { color: #333; }
-        p { color: #666; }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Static Site</title>
+  <!-- Paste the CSS above in a <style> tag or link external stylesheet -->
 </head>
 <body>
-    <h1>Welcome to My Static Website</h1>
-    <p>Successfully deployed using GitHub Pages for DevOps Internship Task 6!</p>
+
+  <!-- HEADER -->
+  <header>
+    <div class="container">
+      <nav>
+        <a href="/" class="logo">MySite</a>
+        <ul class="nav-links">
+          <li><a href="/" class="active">Home</a></li>
+          <li><a href="/blog">Blog</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container">
+      <h1>Welcome to My Site</h1>
+      <p>A clean, fast, and minimal static website built with just HTML and CSS.</p>
+      <a href="/blog" class="btn btn-primary">Read the Blog</a>
+      <a href="/about" class="btn btn-secondary">Learn More</a>
+    </div>
+  </section>
+
+  <!-- FEATURES -->
+  <section>
+    <div class="container">
+      <h2>What I Do</h2>
+      <p class="subtitle">A few things I focus on.</p>
+      <div class="grid">
+        <div class="card">
+          <h3>Web Development</h3>
+          <p>Building fast, accessible static sites.</p>
+          <a href="#">Learn more →</a>
+        </div>
+        <div class="card">
+          <h3>Writing</h3>
+          <p>Sharing ideas about tech and design.</p>
+          <a href="#">Read posts →</a>
+        </div>
+        <div class="card">
+          <h3>Open Source</h3>
+          <p>Contributing to tools I use daily.</p>
+          <a href="#">View projects →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BLOG LIST -->
+  <section>
+    <div class="container-narrow">
+      <h2>Recent Posts</h2>
+      <ul class="post-list">
+        <li class="post-item">
+          <h3><a href="#">Getting Started with Static Sites</a></h3>
+          <div class="post-meta">Jan 15, 2026 · 5 min read</div>
+          <p class="post-excerpt">Why static sites are making a comeback...</p>
+        </li>
+        <li class="post-item">
+          <h3><a href="#">CSS Tips for Cleaner Code</a></h3>
+          <div class="post-meta">Jan 10, 2026 · 4 min read</div>
+          <p class="post-excerpt">Small habits that improve your stylesheets...</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h4>MySite</h4>
+          <p>A personal site built with HTML & CSS.</p>
+        </div>
+        <div>
+          <h4>Pages</h4>
+          <a href="/">Home</a>
+          <a href="/blog">Blog</a>
+          <a href="/about">About</a>
+        </div>
+        <div>
+          <h4>Connect</h4>
+          <a href="#">GitHub</a>
+          <a href="#">Twitter</a>
+          <a href="#">Email</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        © 2026 MySite. All rights reserved.
+      </div>
+    </div>
+  </footer>
+
 </body>
 </html>
